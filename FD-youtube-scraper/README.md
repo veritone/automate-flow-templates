@@ -1,3 +1,5 @@
+Assigned to: Kirill Erokhin (@epsilonlambda)
+
 # Overview
 
 Title: YouTube Scraper
