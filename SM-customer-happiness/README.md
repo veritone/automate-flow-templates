@@ -1,3 +1,5 @@
+Assigned to: Dragan Petrovic (@Dragan2019)
+
 # Overview
 
 Title: Customer Happiness Bot
