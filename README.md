@@ -12,4 +12,6 @@ Each folder in this repo represents a flow template that needs to be developed f
 
 Note: If you would like to propose a new flow template that is not on the list, create a new folder with a readme file in it that describes your idea.
 
+Automate Studio docs can be found here: https://docs.veritone.com/#/automate-studio/.
+
 **Happy building!**
