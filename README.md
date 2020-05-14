@@ -14,4 +14,10 @@ Note: If you would like to propose a new flow template that is not on the list, 
 
 Automate Studio docs can be found here: https://docs.veritone.com/#/automate-studio/.
 
+**Collaborate**
+
+1. Join our open Developer Slack community [here](veritonedev.slack.com)
+1. Ping andymac or Kfir Yeshayahu to join the Automate Studio chat
+1. Use the chat to ask questions and share your wins!
+
 **Happy building!**
