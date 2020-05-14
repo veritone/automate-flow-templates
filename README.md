@@ -16,7 +16,7 @@ Automate Studio docs can be found here: https://docs.veritone.com/#/automate-stu
 
 **Collaborate**
 
-1. Join our open Developer Slack community [here](veritonedev.slack.com)
+1. Join our open Developer Slack community [here](https://veritonedev.slack.com)
 1. Ping andymac or Kfir Yeshayahu to join the Automate Studio chat
 1. Use the chat to ask questions and share your wins!
 
