@@ -33,4 +33,10 @@ This flow template is intended to serve as an example of how to currently create
 
 Our mission with Automate Studio is to create an intuitive process for processing media. We are building towards this mission and know we have a lot to learn along the way!
 
-In the meantime, here are some recommended aiWARE Docs to familiarize yourself with the 
+In the meantime, here are some recommended aiWARE Docs to familiarize yourself with the deeper points of aiWARE, running engines, and processing:
+
+- [Overview of Veritone GraphQL API](https://docs.veritone.com/#/apis/using-graphql)
+- [Engine Job Quickstart Guide](https://docs.veritone.com/#/apis/job-quickstart/)
+- [More Reading on Jobs, Tasks, and TDOs](https://docs.veritone.com/#/apis/jobs-tasks-tdos)
+- [Creating and Processing a Temporal Data Object (TDO)](https://docs.veritone.com/#/apis/tutorials/upload-and-process)
+- [Working with the Edge REST API](https://docs.veritone.com/#/apis/edge/index.html)
