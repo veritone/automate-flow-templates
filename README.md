@@ -2,6 +2,17 @@
 
 Each folder in this repo represents a flow template that needs to be developed for the flows library in Automate Studio. Those flows are meant to serve as "quickstart" templates that make it easy for users of Automate Studio to get started fast and easy.
 
+**Getting Started**
+
+Check out our flow engine template [here](/flow-template.md/)
+
+Both the Flow Template README and the sample itself will help you understand:
+
+1. Automate Studio Editor vs Flow Engine runtime
+1. Debugging your flow engine in Automate Studio editor
+1. Running your flow engine on aiWARE's Edge processing framework
+1. Retrieving the engine task logs for your flow engine
+
 **How to contribute?**
 
 1. Pick a flow template you would like to build.
