@@ -47,9 +47,7 @@ URI and Header Details
 
 Note: These details apply specifically to the Edge V3 production cluster, certain details will change if you are making an API request to another cluster
 
-Endpoint: http://internal-aiwlb-prd-c-bf3d6901-2003021751-1224302637.us-east-1.elb.amazonaws.com//edge/v1/proc/job/create
-
-Note: This is an internal load balancer address to provide the most consistent response for testing. Make sure you are connected to Veritone’s VPN if you would like to test with this endpoint address
+Endpoint: controller-v3f.aws-prod-rt.veritone.com/edge/v1/proc/job/create
 
 
 **Headers**
