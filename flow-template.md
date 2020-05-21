@@ -24,18 +24,28 @@ This flow template is intended to serve as an example of how to currently create
 ## Walkthrough
 
 ### Design the flow
-Each flow starts with the aiWARE in node and
-Your custom business logic
-The aiWARE out node returns the message to the Edge processing framework
-Deploy the flow engine in Developer App
-Run the following Job to ensure that the latest engine build is available in your Edge cluster:
-CreateJob { … }
-Learn more about Job (link)
-Send a chunk to the url defined in the Creating and Running your Engine section
-Learn more about HTTP Push Adapter (link)
-You will know your flow engine task completed successfully when the recipient’s email address defined in the email field receives the HTML message containing the message you sent to your custom Edge API endpoint
-You can view your logs in the Edge Admin app or in Developer app if you created your engine job using GraphQL or applications like CMS or Developer
-Need a page with all Jobs/tasks in your org (jobs table)
+1. Each flow starts with the `aiWARE in` node and your custom business logic
+1. The `aiWARE out` node returns the message to the Edge processing framework
+1. Deploy your changes and then deploy the flow engine in Developer App (click submit and then deploy)
+1. Run the following Job to ensure that the latest engine build is available in your Edge cluster:
+1. ```mutation crtJob{
+  createJob(input:{
+    clusterId:"rt-1cdc1d6d-a500-467a-bc46-d3c5bf3d6901"
+    targetId:"<tdoId in your org>"
+    tasks:[
+      {
+        engineId:"<your engine Id>"
+      }
+    ]
+  }){
+    id
+    status
+  }
+}
+```
+1. Send a chunk to the url defined in the Creating and Running your Engine section
+1. You will know your flow engine task completed successfully when the recipient’s email address defined in the email field receives the 1. HTML message containing the message you sent to your custom Edge API endpoint
+1. You can view your logs in the Edge Admin app or in Developer app if you created your engine job using GraphQL or applications like CMS or Developer
 
 
 ### Creating and Running your Engine Job (DAG)
